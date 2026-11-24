@@ -1,0 +1,16 @@
+# Replace these placeholders with actual GitHub usernames or teams before C0.
+# Contract changes in models/, service.py, and corpus/ require both owners.
+
+/src/codeopt/models/ @codeopt-dev1 @codeopt-dev2
+/src/codeopt/service.py @codeopt-dev1 @codeopt-dev2
+/corpus/ @codeopt-dev1 @codeopt-dev2
+
+/src/codeopt/harness/ @codeopt-dev1
+/src/codeopt/llm/ @codeopt-dev1
+/src/codeopt/core/ @codeopt-dev1
+/src/codeopt/sandbox/runner.py @codeopt-dev1
+/src/codeopt/sandbox/container_runner.py @codeopt-dev2
+/src/codeopt/adapters/mcp_server.py @codeopt-dev2
+/src/codeopt/adapters/api.py @codeopt-dev2
+/src/codeopt/experiments/datasets.py @codeopt-dev2
+/src/codeopt/ml/ @codeopt-dev2

@@ -1,0 +1,18 @@
+# Reproducible environments should be locked with uv.lock after C0.
+# This file remains a pip-compatible, all-in-one development install.
+-e .
+
+# Validation, CLI, and local implementation
+pydantic>=2.10,<3
+typer>=0.15,<1
+
+# Verification, benchmarking, and code-quality tooling
+pytest>=8.3,<9
+hypothesis>=6.120,<7
+coverage[toml]>=7.6,<8
+pyperf>=2.7,<3
+ruff>=0.9,<1
+
+# Planned provider and adapter integrations
+openai>=1.0,<3
+mcp>=1.0,<2
